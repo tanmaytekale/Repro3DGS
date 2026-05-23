@@ -1,6 +1,6 @@
 # Repro3DGS
 
-Repro3DGS is a deployment-focused and beginner-friendly 3D Gaussian Splatting environment that automates setup, dependency management, CUDA compatibility, diagnostics, and validation — making 3DGS reproducible and easy to run across modern GPUs, including RTX 50 / Blackwell systems.
+Repro3DGS is a deployment focused and beginner friendly 3D Gaussian Splatting environment that automates setup, dependency management, CUDA compatibility, diagnostics, and validation; making 3DGS reproducible and easy to run across modern GPUs, including RTX 50 series (Blackwell systems.)
 
 ---
 
