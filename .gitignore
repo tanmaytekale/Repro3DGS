@@ -1,0 +1,66 @@
+# Python / Conda
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+.venv
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 3DGS Specific outputs
+output/
+data/
+!data/example_dataset/
+data/example_dataset/input/*
+!data/example_dataset/input/.gitkeep
+data/example_dataset/output/*
+!data/example_dataset/output/.gitkeep
+data/example_dataset/sparse/*
+!data/example_dataset/sparse/.gitkeep
+
+# Developer validation / temp
+.temp_dataset/
+.temp_pip_cache/
+debug_bundle/
+debug_bundle.zip
+install.log
+compile.log
+diagnostics.log
+validation_env_backup.yml
+convert.log
+
+# C/C++ Extensions Build Artifacts
+submodules/*/build/
+submodules/*/*.egg-info/
+submodules/*/.ninja_*
+submodules/*/dist/
+
+# Binaries (Must be downloaded via scripts)
+colmap/
+colmap.zip
+SIBR_viewers/
+SIBR_viewers.zip
+
+# OS Files
+.DS_Store
+Thumbs.db
