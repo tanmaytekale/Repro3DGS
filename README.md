@@ -1,13 +1,11 @@
-# 3DGS Community Edition
+# Repro3DGS
 
-**A production-ready, highly robust reproducibility layer for 3D Gaussian Splatting.**
-
-3DGS Community Edition takes the brilliant original research implementation and transforms it into a polished, accessible software product. We have completely rewritten the environment infrastructure to eliminate compiler errors, GPU incompatibilities, and dependency corruption.
+Repro3DGS is a deployment-focused and beginner-friendly 3D Gaussian Splatting environment that automates setup, dependency management, CUDA compatibility, diagnostics, and validation — making 3DGS reproducible and easy to run across modern GPUs, including RTX 50 / Blackwell systems.
 
 ---
 
-## 🚀 What is 3DGS Community Edition?
-If you've ever tried to run 3D Gaussian Splatting and been met with cryptic NVCC compiler errors, PyTorch version mismatches, or silent hangs, this project is for you. 
+## 🚀 What is Repro3DGS?
+If you've ever tried to run 3D Gaussian Splatting and been met with cryptic NVCC compiler errors, PyTorch version mismatches, or silent hangs, this project is for you. We've completely overhauled the infrastructure to get you up and running without the headaches.
 
 We provide:
 * **One-Command Installation**: No more piecing together Conda environments manually.
@@ -121,4 +119,4 @@ For developers looking to integrate 3DGS into larger pipelines, our installers s
 ```
 
 ### About This Project
-This is a community-maintained fork designed for enterprise and consumer deployment. If you use this software in research, please cite the original [3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/) paper by Kerbl, Kopanas, Leimkühler, and Drettakis.
+This is an independent, community-driven deployment layer designed for enterprise and consumer use. If you use this software in research, please cite the original [3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/) paper by Kerbl, Kopanas, Leimkühler, and Drettakis.
